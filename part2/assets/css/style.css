@@ -44,28 +44,56 @@ section {
 }
 .clearfix {
 	overflow: auto;
+
 }
 .connect img {
 	margin: 7px;
+
 }
 .container {
 	width: 100%;
 }
 .content-wrapper {
 	background-color: black;
-/*	border-left: 1px dashed grey;
+	/*border-left: 1px dashed grey;
 	border-right: 1px dashed grey;*/	
 	margin: 0 auto;
 	max-width: 768px;
 	padding: 15px;
 	width: 100%;
+	position:fixed;
 }
 
 
 @media only screen and (max-width: 768px) {
-	/* Add your code here */
+    /* For desktop: */
+.content-wrapper{
+	background-color:blue;
+	width:80%;
 }
+.connect_content{
+	float:left;
+	width:100%:1px solid black;
+	border-top
+}
+section{
+	width:100%;
+} 
 
 @media only screen and (max-width: 640px) {
 	/* Add your code here */
+.content-wrapper{
+	background-color:red;
+	width:80%;
+}
+.about-me-content{
+	text-align:center;
+	float:left;
+	width:100%;
+}
+.about-me img{
+	float:left;
+	width:100%;
+	text-align:center;
+}
 }
